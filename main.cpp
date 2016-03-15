@@ -55,7 +55,7 @@ int main(int argc, char** argv){
 
   int option = 0;
   static struct option long_options[] = { 
-      {"adress",  required_argument, 0, 'a'},
+      {"address",  required_argument, 0, 'a'},
       {"api-token",  required_argument, 0, 't'},
       {"diff-id",  required_argument, 0, 'd'},
       {"revision-id",  required_argument, 0, 'r'},
