@@ -45,6 +45,7 @@ int main(int argc, char** argv){
   // command line argument parsing
 
   // data with defaults
+  // TODO make these values a prerequisite and dont fill them with standards
   std::string diff_id = "419";
   std::string revision_id = "176";
   std::string address = "http://tesla4.physik.uni-greifswald.de:2000";
